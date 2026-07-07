@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rishabh Chaurasiya | PHP Laravel Developer</title>
+<meta name="description" content="Rishabh Chaurasiya — PHP Laravel Developer specializing in RESTful APIs, secure authentication, and scalable backend systems.">
+<meta name="keywords" content="Rishabh Chaurasiya, PHP Developer, Laravel Developer, API Developer, Backend Developer, Noida">
+<meta name="author" content="Rishabh Chaurasiya">
+<meta property="og:title" content="Rishabh Chaurasiya | PHP Laravel & API Developer">
+<meta property="og:description" content="Backend & API Developer — Laravel, MySQL, RESTful APIs.">
+<meta property="og:type" content="website">
+
+<!-- Favicon -->
+ <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+
+<!-- Fonts: Space Grotesk (display) / Inter (body) / JetBrains Mono (code accents) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Boxicons -->
+<link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<!-- AOS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- Custom -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ================= LOADER ================= -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-box">
+    <span class="loader-bracket">&lt;</span>
+    <span class="loader-text">Rishabh,Laravel</span>
+    <span class="loader-bracket">/&gt;</span>
+  </div>
+</div>
+
+<!-- ================= SCROLL PROGRESS BAR ================= -->
+<div id="scrollProgress" role="progressbar" aria-hidden="true"></div>
+
+<!-- ================= CURSOR (desktop only, decorative) ================= -->
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Primary">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <span class="brand-bracket">&lt;</span>Rishabh<span class="brand-accent">,</span>Laravel Developer<span class="brand-bracket">/&gt;</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <i class='bx bx-menu'></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto" data-bs-spy="scroll">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark and light mode">
+          <i class='bx bx-sun'></i>
+          <i class='bx bx-moon'></i>
+        </button>
+        <a href="resume/rishabh-chaurasiya-resume.pdf" download class="btn btn-nav-resume">Resume</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header id="home" class="hero-section">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-grid"></div>
+    <span class="floating-chip chip-1">GET /profile</span>
+    <span class="floating-chip chip-2">200 OK</span>
+    <span class="floating-chip chip-3">Laravel 10</span>
+    <span class="floating-chip chip-4">Sanctum::auth()</span>
+    <div class="glow glow-red"></div>
+    <div class="glow glow-blue"></div>
+  </div>
+
+  <div class="container hero-inner">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-7" data-aos="fade-right" data-aos-duration="800">
+        <p class="eyebrow-mono">// backend_developer.init()</p>
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient">Rishabh Chaurasiya</span>
+        </h1>
+        <h2 class="hero-role">
+          <span id="typedRole">PHP Laravel Developer</span><span class="cursor-blink">|</span>
+        </h2>
+        <p class="hero-desc">
+          I design and ship secure, scalable RESTful APIs and backend systems —
+          from authentication with Laravel Sanctum to clean, well-tested MVC architecture.
+          Currently building production applications at E‑Nirmaan Software Solutions.
+        </p>
+        <div class="hero-cta">
+          <a href="resume/rishabh-chaurasiya-resume.pdf" download class="btn btn-primary-glow">
+            <i class='bx bx-download'></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-outline-glow">
+            <i class='bx bx-message-dots'></i> Hire Me
+          </a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-num">2+</span><span class="meta-label">Years Experience</span></div>
+          <div><span class="meta-num">25+</span><span class="meta-label">APIs Shipped</span></div>
+          <div><span class="meta-num">100%</span><span class="meta-label">Client Satisfaction</span></div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 text-center" data-aos="fade-left" data-aos-duration="800">
+        <div class="hero-photo-wrap">
+          <img src="assets/images/myport-pic.jpeg" alt="Portrait of Rishabh Chaurasiya" class="hero-photo" width="420" height="420">
+          <span class="badge-available"><i class='bx bxs-circle'></i> Available for work</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <i class='bx bx-chevron-down'></i>
+    </a>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// about_me</p>
+    <h2 class="section-title text-center" data-aos="fade-up">Who I Am</h2>
+
+    <div class="row align-items-center gy-5 mt-4">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <p class="lead-text">
+          I'm a PHP Laravel API Developer with two years of hands-on experience building
+          RESTful APIs, CRUD systems, and secure backend platforms. I care about clean
+          architecture, thoughtful validation, and APIs that are a pleasure for other
+          developers to consume.
+        </p>
+        <p class="lead-text">
+          At E‑Nirmaan Software Solutions, I build and maintain production applications —
+          from customer management systems to automated notification workflows. Before
+          that, I worked across CRM platforms at Taction Software Solutions, sharpening my
+          skills in PHP, OOP, and full-stack problem solving.
+        </p>
+        <div class="row g-3 mt-3">
+          <div class="col-sm-6">
+            <div class="info-card">
+              <i class='bx bx-map'></i>
+              <div><span>Location</span><p>Noida, Uttar Pradesh, India</p></div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="info-card">
+              <i class='bx bx-briefcase'></i>
+              <div><span>Role</span><p>PHP Laravel Developer</p></div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="info-card">
+              <i class='bx bx-graduation'></i>
+              <div><span>Education</span><p>B.A., Dr RMLA University</p></div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="info-card">
+              <i class='bx bx-check-shield'></i>
+              <div><span>Status</span><p>Open to opportunities</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="highlight-stack">
+          <div class="highlight-item">
+            <i class='bx bx-lock-alt'></i>
+            <div>
+              <h5>Secure Authentication</h5>
+              <p>Token-based auth with Laravel Sanctum, role-based access control and OTP verification.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class='bx bx-data'></i>
+            <div>
+              <h5>Database Design</h5>
+              <p>Relational schema design with Eloquent ORM, migrations, and query optimization.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class='bx bx-plug'></i>
+            <div>
+              <h5>API Integration</h5>
+              <p>RESTful APIs tested thoroughly in Postman with robust validation and error handling.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class='bx bx-bug'></i>
+            <div>
+              <h5>QA Minded</h5>
+              <p>Manual testing, test case creation, and regression testing baked into every release.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// skills.json</p>
+    <h2 class="section-title text-center" data-aos="fade-up">What I Work With</h2>
+
+    <div class="row g-4 mt-3">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h4 class="skill-group-title"><i class='bx bx-code-alt'></i> Technical Skills</h4>
+        <div class="skill-bar" data-skill="PHP &amp; Laravel" data-percent="92"></div>
+        <div class="skill-bar" data-skill="RESTful API Development" data-percent="90"></div>
+        <div class="skill-bar" data-skill="MySQL &amp; Eloquent ORM" data-percent="85"></div>
+        <div class="skill-bar" data-skill="Authentication &amp; Security" data-percent="88"></div>
+        <div class="skill-bar" data-skill="JavaScript / jQuery / AJAX" data-percent="78"></div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h4 class="skill-group-title"><i class='bx bx-bulb'></i> Soft Skills</h4>
+        <div class="skill-bar" data-skill="Problem Solving" data-percent="90"></div>
+        <div class="skill-bar" data-skill="Communication" data-percent="85"></div>
+        <div class="skill-bar" data-skill="Team Collaboration" data-percent="88"></div>
+        <div class="skill-bar" data-skill="Time Management" data-percent="82"></div>
+        <div class="skill-bar" data-skill="Attention to Detail" data-percent="92"></div>
+      </div>
+    </div>
+
+    <h4 class="skill-group-title text-center mt-5" data-aos="fade-up"><i class='bx bx-wrench'></i> Tools &amp; Technologies</h4>
+    <div class="tool-grid mt-4">
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="0"><i class='bx bxl-php'></i>PHP</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="30"><i class='bx bx-server'></i>Laravel</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="60"><i class="bx bx-data"></i>MySQL</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="90"><i class='bx bxl-git'></i>Git</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="120"><i class='bx bxl-github'></i>GitHub</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="60"><i class="bx bx-transfer-alt"></i>Postman API</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="180"><i class='bx bxl-javascript'></i>JavaScript</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="210"><i class='bx bxl-jquery'></i>jQuery</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="240"><i class='bx bxl-bootstrap'></i>Bootstrap</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="270"><i class='bx bxl-html5'></i>HTML5</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="300"><i class='bx bxl-css3'></i>CSS3</div>
+      <div class="tool-chip" data-aos="zoom-in" data-aos-delay="330"><i class='bx bx-package'></i>Composer</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATISTICS ================= -->
+<section class="stats-section">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3" data-aos="fade-up">
+        <div class="stat-card">
+          <span class="counter" data-target="2">0</span><span class="stat-plus">+</span>
+          <p>Years Experience</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-card">
+          <span class="counter" data-target="25">0</span><span class="stat-plus">+</span>
+          <p>APIs &amp; Modules Built</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-card">
+          <span class="counter" data-target="6">0</span><span class="stat-plus">+</span>
+          <p>Projects Delivered</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-card">
+          <span class="counter" data-target="100">0</span><span class="stat-plus">%</span>
+          <p>On-Time Delivery</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="section">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// experience.log</p>
+    <h2 class="section-title text-center" data-aos="fade-up">Where I've Worked</h2>
+
+    <div class="timeline mt-5">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">Oct 2024 — Present</span>
+          <h4>PHP Laravel Developer</h4>
+          <p class="timeline-company"><i class='bx bx-buildings'></i> E‑Nirmaan Software Solution Pvt. Ltd., Noida</p>
+          <ul>
+            <li>Developed RESTful APIs using Laravel 10 for customer management operations.</li>
+            <li>Built secure token-based authentication with Laravel Sanctum.</li>
+            <li>Created CRUD APIs for listing, filtering, and payment status updates.</li>
+            <li>Built CSV bulk upload with duplicate validation and data processing.</li>
+            <li>Implemented email/WhatsApp notification workflows for pending payments.</li>
+            <li>Built reporting APIs for paid/pending customer statistics.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">May 2023 — 2024</span>
+          <h4>Junior PHP Developer</h4>
+          <p class="timeline-company"><i class='bx bx-buildings'></i> Taction Software Solutions Pvt. Ltd.</p>
+          <ul>
+            <li>Worked on CRM and SuiteCRM apps using PHP, OOP, AJAX, jQuery, JavaScript.</li>
+            <li>Customized CRM modules to match business requirements.</li>
+            <li>Implemented automated email notification functionality.</li>
+            <li>Performed bug fixing, testing, and application enhancements.</li>
+            <li>Managed deployments using cPanel, FileZilla, and Linux commands.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// education.log</p>
+    <h2 class="section-title text-center" data-aos="fade-up">Academic Background</h2>
+
+    <div class="timeline timeline-center mt-5">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-date">Graduated</span>
+          <h4>Bachelor of Arts (B.A.)</h4>
+          <p class="timeline-company"><i class='bx bx-book-open'></i> Dr. Ram Manohar Lohia Avadh University, Ayodhya (UP)</p>
+          <p class="mb-0 mt-2 text-muted-soft">Built a strong analytical and communication foundation, later channelled into
+          self-driven backend development and API engineering.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// projects.list()</p>
+    <h2 class="section-title text-center" data-aos="fade-up">Featured Projects</h2>
+
+    <div class="filter-bar text-center mt-4" data-aos="fade-up">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="hrms">HR &amp; Ops</button>
+      <button class="filter-btn" data-filter="task">Task Mgmt</button>
+      <button class="filter-btn" data-filter="crm">CRM</button>
+    </div>
+
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-lg-4 project-item" data-cat="hrms" data-aos="fade-up">
+        <div class="project-card">
+          <div class="project-thumb"><i class='bx bx-id-card'></i></div>
+          <div class="project-body">
+            <h4>HRMS — Employee Portal</h4>
+            <p>Employee management, attendance, leave &amp; expense modules with OTP login and role-based access.</p>
+            <div class="tag-row">
+              <span>Laravel 10</span><span>MySQL 8</span><span>Bootstrap 5</span>
+            </div>
+            <div class="project-links">
+              <a href="https://employee.hyten.ai" target="_blank" rel="noopener"><i class='bx bx-link-external'></i> Live Demo</a>
+              <a href="https://github.com/studentrishabh" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-cat="task" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <div class="project-thumb"><i class='bx bx-list-check'></i></div>
+          <div class="project-body">
+            <h4>Strive — Task Management System</h4>
+            <p>Task creation, assignment, tracking and activity logs with secure APIs and real-time notifications.</p>
+            <div class="tag-row">
+              <span>Laravel 10</span><span>Ajax</span><span>jQuery</span>
+            </div>
+            <div class="project-links">
+              <a href="https://strive.enirmaan.com/" target="_blank" rel="noopener"><i class='bx bx-link-external'></i> Live Demo</a>
+              <a href="https://github.com/studentrishabh" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-cat="crm" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+          <div class="project-thumb"><i class='bx bx-customize'></i></div>
+          <div class="project-body">
+            <h4>SuiteCRM Customization</h4>
+            <p>Custom CRM modules, automated email workflows and process integrations for business teams.</p>
+            <div class="tag-row">
+              <span>PHP</span><span>SuiteCRM</span><span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" onclick="return false;" class="disabled-link"><i class='bx bx-link-external'></i> Private</a>
+              <a href="https://github.com/studentrishabh" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// services.offer()</p>
+    <h2 class="section-title text-center" data-aos="fade-up">How I Can Help</h2>
+
+    <div class="row g-4 mt-3">
+      <div class="col-md-6 col-lg-3" data-aos="fade-up">
+        <div class="service-card">
+          <i class='bx bx-server service-icon'></i>
+          <h5>API Development</h5>
+          <p>Designing and building secure, well-documented RESTful APIs from scratch.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <i class='bx bx-shield-quarter service-icon'></i>
+          <h5>Authentication Systems</h5>
+          <p>Token-based auth, RBAC, and OTP verification using Laravel Sanctum.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <i class='bx bx-data service-icon'></i>
+          <h5>Database Architecture</h5>
+          <p>Relational schema design, migrations and query optimization with Eloquent.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-card">
+          <i class='bx bx-bug service-icon'></i>
+          <h5>QA &amp; API Testing</h5>
+          <p>Manual testing, test case design, and thorough Postman-based API verification.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS & ACHIEVEMENTS ================= -->
+<section id="certifications" class="section">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-6">
+        <p class="eyebrow-mono" data-aos="fade-up">// certifications</p>
+        <h2 class="section-title-sm" data-aos="fade-up">Certifications</h2>
+        <p class="text-muted-soft" data-aos="fade-up">Editable placeholders — add your certificates here.</p>
+        <div class="cert-list mt-4">
+          <div class="cert-item" data-aos="fade-up" data-aos-delay="100">
+            <i class='bx bxs-certification'></i>
+            <div>
+              <h6>PHP &amp; Laravel Backend Development</h6>
+              <span>Add issuing platform &amp; year</span>
+            </div>
+          </div>
+          <div class="cert-item" data-aos="fade-up" data-aos-delay="200">
+            <i class='bx bxs-certification'></i>
+            <div>
+              <h6>RESTful API Design Fundamentals</h6>
+              <span>Add issuing platform &amp; year</span>
+            </div>
+          </div>
+          <div class="cert-item" data-aos="fade-up" data-aos-delay="300">
+            <i class='bx bxs-certification'></i>
+            <div>
+              <h6>MySQL Database Design</h6>
+              <span>Add issuing platform &amp; year</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <p class="eyebrow-mono" data-aos="fade-up">// achievements</p>
+        <h2 class="section-title-sm" data-aos="fade-up">Achievements</h2>
+        <p class="text-muted-soft" data-aos="fade-up">Editable placeholders — add your milestones here.</p>
+        <div class="cert-list mt-4">
+          <div class="cert-item" data-aos="fade-up" data-aos-delay="100">
+            <i class='bx bxs-trophy'></i>
+            <div>
+              <h6>Shipped production APIs for a live customer management platform</h6>
+              <span>E‑Nirmaan Software Solutions</span>
+            </div>
+          </div>
+          <div class="cert-item" data-aos="fade-up" data-aos-delay="200">
+            <i class='bx bxs-trophy'></i>
+            <div>
+              <h6>Delivered HRMS &amp; Task Management systems end-to-end</h6>
+              <span>Add measurable impact here</span>
+            </div>
+          </div>
+          <div class="cert-item" data-aos="fade-up" data-aos-delay="300">
+            <i class='bx bxs-trophy'></i>
+            <div>
+              <h6>Reduced payment-tracking overhead with automated notifications</h6>
+              <span>Add measurable impact here</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section id="testimonials" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// testimonials</p>
+    <h2 class="section-title text-center" data-aos="fade-up">What People Say</h2>
+    <p class="text-muted-soft text-center" data-aos="fade-up">Placeholder quotes — swap in real client/teammate feedback.</p>
+
+    <div id="testimonialCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-aos="fade-up">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial-card mx-auto">
+            <i class='bx bxs-quote-alt-left quote-icon'></i>
+            <p>"Rishabh consistently delivered clean, well-tested APIs ahead of schedule. His
+            attention to validation and error handling saved us countless debugging hours."</p>
+            <div class="testimonial-author">
+              <div class="avatar-circle">PM</div>
+              <div><h6>Project Manager</h6><span>E‑Nirmaan Software Solutions</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-card mx-auto">
+            <i class='bx bxs-quote-alt-left quote-icon'></i>
+            <p>"He picked up our CRM codebase quickly and shipped custom modules with
+            minimal oversight. Reliable, communicative, and detail-oriented."</p>
+            <div class="testimonial-author">
+              <div class="avatar-circle">TL</div>
+              <div><h6>Team Lead</h6><span>Taction Software Solutions</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-card mx-auto">
+            <i class='bx bxs-quote-alt-left quote-icon'></i>
+            <p>"A dependable backend developer who genuinely cares about clean architecture
+            and secure authentication flows."</p>
+            <div class="testimonial-author">
+              <div class="avatar-circle">CL</div>
+              <div><h6>Client</h6><span>Freelance Engagement</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="custom-carousel-icon"><i class='bx bx-chevron-left'></i></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="custom-carousel-icon"><i class='bx bx-chevron-right'></i></span>
+      </button>
+      <div class="carousel-indicators-custom">
+        <button data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+        <button data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+        <button data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+  <div class="container">
+    <p class="eyebrow-mono text-center" data-aos="fade-up">// contact.send()</p>
+    <h2 class="section-title text-center" data-aos="fade-up">Let's Build Something</h2>
+    <p class="text-muted-soft text-center" data-aos="fade-up">Have a project or role in mind? My inbox is open.</p>
+
+    <div class="row g-4 mt-4">
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="contact-info-card">
+          <div class="contact-info-item">
+            <i class='bx bx-envelope'></i>
+            <div><span>Email</span><p><a href="mailto:rishabh.chaurasiya011@gmail.com">rishabh.chaurasiya011@gmail.com</a></p></div>
+          </div>
+          <div class="contact-info-item">
+            <i class='bx bx-phone'></i>
+            <div><span>Phone</span><p><a href="tel:+919217659349">+91 92176 59349</a></p></div>
+          </div>
+          <div class="contact-info-item">
+            <i class='bx bx-map'></i>
+            <div><span>Address</span><p>Noida, Uttar Pradesh, India</p></div>
+          </div>
+          <div class="map-placeholder">
+            <i class='bx bx-map-pin'></i>
+            <span>Google Map Placeholder — Noida, UP</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7" data-aos="fade-left">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="cf-name">Full Name</label>
+              <input type="text" class="form-control" id="cf-name" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="cf-email">Email Address</label>
+              <input type="email" class="form-control" id="cf-email" required>
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="cf-subject">Subject</label>
+              <input type="text" class="form-control" id="cf-subject" required>
+              <div class="invalid-feedback">Please enter a subject.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="cf-message">Message</label>
+              <textarea class="form-control" id="cf-message" rows="5" required></textarea>
+              <div class="invalid-feedback">Please enter a message.</div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary-glow w-100">
+                <i class='bx bx-paper-plane'></i> Send Message
+              </button>
+              <p id="formStatus" class="form-status mt-3" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand" href="#home">
+          <span class="brand-bracket">&lt;</span>Rishabh<span class="brand-accent">.</span>dev<span class="brand-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">PHP Laravel Developer building secure, scalable APIs and backend systems.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/rishabh-chaurasiya-5b2a58273/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/studentrishabh" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Twitter / X"><i class='bx bxl-twitter'></i></a>
+          <a href="https://wa.me/919217659349" target="_blank" rel="noopener" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h6 class="footer-heading">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4">
+        <h6 class="footer-heading">Get In Touch</h6>
+        <ul class="footer-links">
+          <li><i class='bx bx-envelope'></i> rishabh.chaurasiya011@gmail.com</li>
+          <li><i class='bx bx-phone'></i> +91 92176 59349</li>
+          <li><i class='bx bx-map'></i> Noida, Uttar Pradesh, India</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Rishabh Chaurasiya. All rights reserved.</p>
+      <p class="footer-credit">Designed &amp; built with <i class='bx bxs-heart'></i> using Bootstrap 5</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= BACK TO TOP / FAB ================= -->
+<button id="backToTop" class="fab" aria-label="Back to top">
+  <i class='bx bx-up-arrow-alt'></i>
+</button>
+
+<!-- Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<!-- Custom JS --> 
+
+<audio id="clickSound" preload="auto">
+    <source src="assets/audio/mixkit-modern-technology-select-3124.wav" type="audio/mpeg">
+</audio>
+<script src="script.js"></script>
+</body>
+</html>

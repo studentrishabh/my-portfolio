@@ -1,0 +1,31 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12224E"/>
+      <stop offset="55%" stop-color="#1B3358"/>
+      <stop offset="100%" stop-color="#0F1115"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="100%" stop-color="#2F5FE0"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDE4F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="40" fill="url(#bgGrad)"/>
+  <!-- subtle grid, nod to API / code background -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="150" x2="600" y2="150"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="0" y1="450" x2="600" y2="450"/>
+    <line x1="150" y1="0" x2="150" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/>
+    <line x1="450" y1="0" x2="450" y2="600"/>
+  </g>
+  <circle cx="300" cy="300" r="190" fill="none" stroke="url(#ringGrad)" stroke-width="6" stroke-dasharray="4 10" opacity="0.9"/>
+  <circle cx="300" cy="300" r="160" fill="#0C1730" stroke="#24345C" stroke-width="2"/>
+  <text x="300" y="335" font-family="'Space Grotesk', sans-serif" font-size="150" font-weight="700" fill="url(#textGrad)" text-anchor="middle">RC</text>
+  <text x="300" y="560" font-family="'JetBrains Mono', monospace" font-size="18" fill="#E63946" text-anchor="middle" letter-spacing="2">&lt;/&gt; PHP · LARAVEL · API</text>
+</svg>
