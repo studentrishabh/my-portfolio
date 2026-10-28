@@ -271,31 +271,26 @@
     });
   }
 
-  /* ---------- Contact form (client-side validation + demo submit) ---------- */
-  function initContactForm() {
-    const form = document.getElementById("contactForm");
-    const status = document.getElementById("formStatus");
-    if (!form) return;
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
 
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-
-      if (!form.checkValidity()) {
-        form.classList.add("was-validated");
-        status.textContent = "Please fill in all required fields correctly.";
-        status.className = "form-status error mt-3";
-        return;
-      }
-
-      // Demo-only: no backend is wired up yet.
-      // Replace this block with a fetch() call to your form endpoint (e.g. Formspree, EmailJS, or a custom API route).
-      status.textContent = "Thanks! Your message looks ready to send — connect a form endpoint to deliver it.";
-      status.className = "form-status success mt-3";
-      form.reset();
-      form.classList.remove("was-validated");
-    });
+  Swal.fire({
+  icon: "success",
+  title: "Message Sent Successfully!",
+  text: "Thank you for reaching out. I appreciate your interest and will get back to you soon.",
+  confirmButtonText: "Awesome!",
+  confirmButtonColor: "#2563eb",
+  background: "#ffffff",
+  color: "#1e293b",
+  customClass: {
+    popup: "portfolio-swal-popup",
+    title: "portfolio-swal-title",
+    confirmButton: "portfolio-swal-button"
   }
+});
+
+    this.reset();
+  });
 
   /* ---------- Smooth anchor scrolling (fallback for older browsers) ---------- */
   function initSmoothAnchors() {
